@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Login</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body, html {
+            height: 100%;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: Arial, sans-serif;
+            background-color: #f8f8f8;
+        }
+
+        .center-strip {
+            width: 100%;
+            max-width: 400px; /* Largura da faixa verde aumentada */
+            height: 100vh;
+            background-color: #006400; /* Cor de fundo verde */
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .logo {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .logo img {
+            width: 200px; /* Ajuste o tamanho conforme necessário */
+            height: auto;
+        }
+
+        .logo-text {
+            font-size: 24px;
+            color: white;
+            font-weight: bold;
+        }
+
+        .button {
+            width: 80%;
+            padding: 10px;
+            margin: 10px 0;
+            font-size: 16px;
+            color: #000;
+            background-color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-weight: bold;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+        }
+
+        .button:hover {
+            background-color: #e0e0e0;
+        }
+    </style>
+</head>
+<body>
+    <div class="center-strip">
+        <div class="logo">
+            <img src="../midia/logoPFIF.png" alt="Logo PFIF"> <!-- Caminho para a imagem do logotipo -->
+        </div>
+        <a href="../USER_PHP/telaInicialUSER.php" class="button">Entrar</a>
+        <a href="../ADM_php/paginaLoginAdm.php" class="button">Login Administrativo</a>
+    </div>
+</body>
+</html>

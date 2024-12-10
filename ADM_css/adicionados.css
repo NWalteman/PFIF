@@ -1,0 +1,202 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f3f3f3;
+}
+
+/* Navbar */
+header {
+    background-color: #035014;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo img {
+    width: 40px;
+    margin-right: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-right: 15px;
+    font-size: 18px;
+    padding: 5px 10px;
+    border-radius: 5px;
+
+}
+
+nav a:hover,
+nav a:active {
+    background-color: #d9d9d9;
+    color: black;
+}
+
+.container-pesquisa {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.container-pesquisa form {
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+}
+
+.container-pesquisa input[type="text"] {
+    padding: 5px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    width: 200px;
+}
+
+.container-pesquisa button {
+    padding: 5px 10px;
+    background-color: #006f3a;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.container-pesquisa button:hover {
+    background-color: #004f2c;
+}
+
+a.sair {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    margin-left: 15px;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+a.sair:hover {
+    background-color: #d9d9d9;
+    color: black;
+}
+
+/* Pesquisa Avançada */
+#container-pesquisa-avancada {
+    display: none;
+    position: absolute;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-top: 10px;
+    width: 100%;
+    max-width: 500px;
+    margin-left: 45%;
+}
+
+#container-pesquisa-avancada label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+#container-pesquisa-avancada input,
+#container-pesquisa-avancada select {
+    padding: 8px;
+    font-size: 16px;
+    margin-bottom: 15px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#container-pesquisa-avancada button {
+    padding: 8px 15px;
+    background-color: #035014;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#container-pesquisa-avancada button:hover {
+    background-color: #004f2c;
+}
+
+/* Botão de Pesquisa Avançada (voltar à versão original) */
+#disparar-pesquisa-avancada {
+    background-color: #006f3a;
+    border: none;
+    padding: 8px 15px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#disparar-pesquisa-avancada:hover {
+    background-color: #004f2c;
+}
+
+/* Container central */
+.container {
+    margin: 20px auto;
+    padding: 20px 40px;
+    background-color: white;
+    border-radius: 10px;
+    max-width: 1000px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Lista de Projetos */
+.project-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.project-list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin: 5px 0;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.project-list li span {
+    font-size: 16px;
+}
+
+.project-list button {
+    padding: 8px 12px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.delete-btn {
+    background-color: #a41e1e;
+    color: white;
+}
+
+.edit-btn {
+    background-color: #4b4b4b;
+    color: white;
+}
+
+.delete-btn:hover {
+    background-color: #8c1818;
+}
+
+.edit-btn:hover {
+    background-color: #3b3b3b;
+}

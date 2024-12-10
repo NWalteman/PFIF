@@ -1,0 +1,85 @@
+/* Estilos gerais */
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    background-color: #006400;
+}
+
+/* Container do formulário de login */
+.login-container {
+    background-color: white;
+    padding: 40px 30px;
+    border-radius: 10px;
+    width: 320px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.login-container img {
+    width: 120px; /* Aumenta o tamanho da logo */
+    height: auto; /* Mantém a proporção da imagem */
+    margin-bottom: 30px; /* Aumenta o espaço abaixo da imagem */
+}
+
+h2 {
+    color: #005f2f;
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    max-width: 260px;
+    padding: 12px;
+    margin: 10px auto;
+    border: none;
+    border-radius: 5px;
+    background-color: #005f2f;
+    color: white;
+    font-size: 14px;
+    display: block;
+}
+
+input::placeholder {
+    color: #d9d9d9;
+}
+
+/* Botão Entrar */
+.login-button {
+    width: 100%;
+    max-width: 260px;
+    padding: 12px;
+    background-color: #005f2f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 20px;
+    display: block;
+    margin: 20px auto 0 auto;
+}
+
+.login-button:hover {
+    background-color: #009933;
+}
+
+/* Link "Esqueci minha senha" */
+.forgot-password {
+    display: block;
+    margin-top: 15px;
+    color: #01581e;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.forgot-password:hover {
+    text-decoration: underline;
+}
